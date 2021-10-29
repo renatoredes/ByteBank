@@ -9,7 +9,7 @@
 
 ## Instalação
 1.  clone o repositório ` https://github.com/renatoredes/ByteBank.git`
-2.  Entre no projeto e instale as dependencias `npm install`
+2.  Entre no projeto e instale as dependencias `npm install` -  `npm i - g @angular/cli`
 
 ## Ambiente Local
 
