@@ -1,27 +1,40 @@
-# Bytebank
+# MVP Bytebank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
+### O projeto é um exemplo de uma aplicação de transferência 
 
-## Development server
+* Tecnologias: 
+* Angular 10.1.6
+* API REST
+* Json-server - npm
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalação
+1.  clone o repositório ` https://github.com/renatoredes/ByteBank.git`
+2.  Entre no projeto e instale as dependencias `npm install`
 
-## Code scaffolding
+## Ambiente Local
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute `ng serve` para que o projeto execulte localmente.
+Acesse a url `http://localhost:4200/`. O projeto já está com reload automático conforme as alterações que você realizar no código
+
+## Simulando o Back-end
+
+Execute `npm install -g json-server` para instalar globalmente o servidor json. Após a instalação entre na pasta do projeto e execute `json-server --watch db.json`, com isso um servidor será inicializado na url `http://localhost:3000/transferencias`, após a inicialização sera possível realizar requisições http.
+
+## Gerando componente
+
+Execute `ng generate component nome-do-componente` para criar um novo componente. Você também pode usuar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado dentro do diretório `dist/`. Adicionar `--prod` junto comando de build para gerar minificado e pronto para o ambiente de produção.
 
-## Running unit tests
+## License
+MIT © [Renato Ferreira](https://github.com/renatoredes)<br />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 👨👩 Social [🔝](#welcome-badges-4-readmemd-profile)
 
-## Running end-to-end tests
+Badge | URL
+------------ | -------------
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> | [Renato](https://www.linkedin.com/in/renatoredes/)<br />
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
