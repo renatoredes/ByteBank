@@ -34,9 +34,6 @@ Execute `ng build` para gerar o compilado do projeto. O projeto vai ser criado d
 ### Table
 <img src=https://github.com/renatoredes/ByteBank/blob/main/scrin/get.png />
 
-### Servidor Json NPM
-<img src=https://github.com/renatoredes/ByteBank/blob/main/scrin/db-json.png/>
-
 ## License
 MIT © [Renato Ferreira](https://github.com/renatoredes)<br />
 
